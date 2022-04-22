@@ -12,6 +12,6 @@ class Solution:
             num = nums[i]
             complement = target-num
             if nums[i] in complementmap:
-                return[complementmap[num],i]
+                return[complementmap[num], i]
             else:
                 complementmap[complement] = i
